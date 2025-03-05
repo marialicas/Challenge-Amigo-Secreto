@@ -1,6 +1,6 @@
-# Challenge Amigo Secreto
-Fazer o site que sorteia seu amigo secreto.
+# Challenge Amigo Secreto ✉️
+Este foi um desafio proposto pela galera da ONE, onde fiquei responsável pela parte do JavaScript.
 
-Este foi um desafio proposto pela galera da ONE, onde fiquei responsavel pela parte do JavaScript.
+O desafio consiste em criar toda a lógica de programação de um sistema de amigo secreto.
 
-Foi realizado todo o funcionamento do amigo secreto, onde o usuário pode adicionar, armazenar e sortear os amigos.
+Eu realizei todo o funcionamento do amigo secreto, onde o usuário pode adicionar e sortear o seu amigo secreto.
