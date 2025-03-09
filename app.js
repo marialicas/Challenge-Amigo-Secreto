@@ -2,8 +2,8 @@ let listaAmigos = [];
 let botao = document.querySelector(".button-draw");
 botao.style.backgroundColor = "#444444";
 
-function enter(evento){
-  if(evento.keyCode == 13){
+function enter(evento) {
+  if (evento.keyCode == 13) {
     adicionarAmigo();
     limparInput();
   }
@@ -11,14 +11,15 @@ function enter(evento){
 
 function adicionarAmigo() {
   let amigo = document.querySelector("input").value;
-  
+  let resultado = document.querySelector("#resultado");
   if (amigo == "") {
     alert("O campo está vazio");
   } else {
     botao.style.backgroundColor = "#fe652b";
-    botao.toggleAttribute("disabled",false);
+    botao.toggleAttribute("disabled", false);
     listaAmigos.push(amigo);
     listarAmigos(amigo);
+    resultado.innerHTML = " ";
   }
 }
 
@@ -42,11 +43,11 @@ function sortearAmigo() {
   });
 
   botao.toggleAttribute("disabled");
-  botao.style.backgroundColor = "#444444"
+  botao.style.backgroundColor = "#444444";
   listaAmigos = [];
 }
 
-function limparInput(){
+function limparInput() {
   let input = document.querySelector("#amigo");
   input.value = "";
 }
